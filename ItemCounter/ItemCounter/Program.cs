@@ -14,23 +14,22 @@ namespace ItemCounter
             var integerList = new List<int> { 7, 4, 6, 6, 5, 2, 4 };
             var characterList = new List<char> { 'd', 's', 'd', 'd', 't', 'e' };
 
-            Console.WriteLine("Count occurence of each string on list:");
+            Console.WriteLine("Frequency of each string on list:");
             CountItems(stringList);
 
-            Console.WriteLine("\nInteger list count:");
+            Console.WriteLine("\nFrequency of each integer on list:");
             CountItems(integerList);
 
-            Console.WriteLine("\nCharacter list count:");
+            Console.WriteLine("\nFrequency of each character on list:");
             CountItems(characterList);
 
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
-
         }
 
         public static void CountItems<T>(IEnumerable<T> items)
         {
-            
+            var itemCounts = new Dictionary<T, int>();
         }
     }
 }
