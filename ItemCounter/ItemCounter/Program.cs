@@ -30,6 +30,8 @@ namespace ItemCounter
         public static void CountItems<T>(IEnumerable<T> items)
         {
             var itemCounts = new Dictionary<T, int>();
+
+
         }
     }
 }
