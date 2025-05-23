@@ -14,5 +14,10 @@ namespace ItemCounter
             var integerList = new List<int> { 7, 4, 6, 6, 5, 2, 4 };
             var characterList = new List<char> { 'd', 's', 'd', 'd', 't', 'e' };
         }
+
+        public static void CountItems<T>(IEnumerable<T> items)
+        {
+            
+        }
     }
 }
